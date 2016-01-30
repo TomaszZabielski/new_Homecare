@@ -3,10 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="generator" content="Wufoo">
+<meta name="robots" content="index, follow">
 <meta charset="UTF-8">
 <title>Home Care</title>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="shortcut icon" href="images/logohc.ico" />
+<link href="css/structure.css" rel="stylesheet">
+<link href="css/form.css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="js/cycle2.js"></script>
+<script src="scripts/wufoo.js"></script>
 
 </head>
 
@@ -42,18 +49,29 @@
                         
                     </section>
             
+                    
+                    
                     <section class="graph1">
-                    	<img src="images/paintbrush.png" alt="vector image paint brush">
+                    	<img src="images/drill.png" alt="vector image drill">
+                    	<h1>Repairs</h1>
+                    	<h1>Maintenance</h1>
+                    	<p>Bacon ipsum dolor amet venison swine beef ribs cow bresaola. Corned beef pastrami spare ribs, biltong strip steak bresaola fatback jerky turducken ham meatball tenderloin short ribs cupim.</p>
 
                     </section>
-                    
+
                     <section class="graph2">
                     	<img src="images/paintbrush.png" alt="vector image paint brush">
+                    	<h1>Painting</h1>
+                    	<h1>Decorating</h1>
+                    	<p>Bacon ipsum dolor amet venison swine beef ribs cow bresaola. Corned beef pastrami spare ribs, biltong strip steak bresaola fatback jerky turducken ham meatball tenderloin short ribs cupim.</p>
 
                     </section>
                     
                     <section class="graph3">
-                    	<img src="images/paintbrush.png" alt="vector image paint brush">
+                    	<img src="images/patio.png" alt="vector image patio slaps">
+                    	<h1>Patio</h1>
+                    	<h1>Decking</h1>
+                    	<p>Bacon ipsum dolor amet venison swine beef ribs cow bresaola. Corned beef pastrami spare ribs, biltong strip steak bresaola fatback jerky turducken ham meatball tenderloin short ribs cupim.</p>
 
                     </section>
                     
@@ -61,10 +79,134 @@
             </div>
             
             
-            <div id="gallery"></div>
+           <div id="gallery">
+
+           		<div id="slideshow" class="cycle-slideshow"
+           									data-cycle-fx = "fade"
+           									data-cycle-speed = "600"
+           									data-cycle-timeout = "4000"
+           									data-cycle-pager = "#pager"
+           									data-cycle-pager-template = "<a href='#'><img src='{{src}}' height=100 width=150/>"
+           									data-cycle-next = "#next"
+           									data-cycle-prev = "#prev"
+           									data-cycle-manual-fx = "scrollHorz"
+           									data-cycle-manual-speed = "400"
+           									data-cycle-pager-fx = "fade">
+
+
+           			<img src="images/1.jpg" alt="image1">
+           			<img src="images/2.jpg" alt="image1">
+           			<img src="images/3.jpg" alt="image1">
+           			<img src="images/4.jpg" alt="image1">
+           			<img src="images/5.jpg" alt="image1">
+           			<img src="images/6.jpg" alt="image1">
+           			<!--<img src="images/7.jpg" alt="image1">
+           			<img src="images/8.jpg" alt="image1">
+           			<img src="images/9.jpg" alt="image1">
+           			<img src="images/10.jpg" alt="image1">
+           			<img src="images/11.jpg" alt="image1">
+           			<img src="images/12.jpg" alt="image1">
+           			<img src="images/13.jpg" alt="image1">
+           			<img src="images/14.jpg" alt="image1">-->
+
+           		</div>
+            	
+            	<div id="pager"></div>
+            		<img id="prev" src="img/prev1.svg">
+            		<img id="next" src="img/next1.svg">
+
+
+            </div>
             
             
-            <div id="contact"></div>
+            <div id="contact">
+
+            	<form id="form2" name="form2" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+      action="https://zabiel.wufoo.com/forms/m1j5qm5z1xu1m90/#public">
+  
+<header id="header" class="info">
+<h2>Contact Home Care</h2>
+<div>If, you have any questions, You can contact us by sending Your email to us. <br/>
+	Or simply contact us by Phone.<br />
+Thank You.</div>
+</header><ul>
+<li id="foli1" class="notranslate      ">
+<label class="desc" id="title1" for="Field1">
+Name
+<span id="req_1" class="req">*</span>
+</label>
+<span>
+<input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1"       required />
+<label for="Field1">First</label>
+</span>
+<span>
+<input id="Field2" name="Field2" type="text" class="field text ln" value="" size="14" tabindex="2" required />
+<label for="Field2">Last</label>
+</span>
+</li>
+<li id="foli9" class="notranslate      ">
+<label class="desc" id="title9" for="Field9">
+Email
+<span id="req_9" class="req">*</span>
+</label>
+<div>
+<input id="Field9" name="Field9" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3"       required />
+</div>
+</li>
+<li id="foli10" class="phone notranslate      ">
+<label class="desc" id="title10" for="Field10">
+Phone Number
+</label>
+<span>
+<input id="Field10" name="Field10" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="4"       />
+<label for="Field10">###</label>
+</span>
+<span class="symbol">-</span>
+<span>
+<input id="Field10-1" name="Field10-1" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="5" />
+<label for="Field10-1">###</label>
+</span>
+<span class="symbol">-</span>
+<span>
+ <input id="Field10-2" name="Field10-2" type="tel" class="field text" value="" size="4" maxlength="4" tabindex="6" />
+<label for="Field10-2">####</label>
+</span>
+</li>
+<li id="foli13"
+class="notranslate      "><label class="desc" id="title13" for="Field13">
+Untitled
+</label>
+
+<div>
+<textarea id="Field13"
+name="Field13"
+class="field textarea medium"
+spellcheck="true"
+rows="10" cols="50"
+
+tabindex="7"
+onkeyup=""
+       ></textarea>
+
+</div>
+</li> <li class="buttons ">
+<div>
+
+                    <input id="saveForm" name="saveForm" class="btTxt submit"
+    type="submit" value="Submit"
+ /></div>
+</li>
+
+<!--<li class="hide">
+<label for="comment">Do Not Fill This Out</label>
+<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+<input type="hidden" id="idstamp" name="idstamp" value="b3oI10UHzMWy3894DpVG1ayr0ZnfXHM+uN+27Mrebss=" />
+</li>-->
+</ul>
+</form>
+
+
+            </div>
             
             <div id="footer"></div>
            
